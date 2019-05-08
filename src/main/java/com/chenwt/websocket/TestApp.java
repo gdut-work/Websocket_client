@@ -11,6 +11,7 @@ package com.chenwt.websocket;
 public class TestApp {
     private static String serverUrl = "ws://127.0.0.1/admin/websocket/app";
     private static String appClientInfo = "{\n" +
+            "    \"type\": 1\n" +
             "\t\"clientInfo\": {\n" +
             "\t\t\"phone\": \"138001380000\",\n" +
             "\t\t\"name1\": \"1\",\n" +
