@@ -6,7 +6,7 @@
 websocket客户端发往服务端的注册数据结构:
 ````
 {
-    "type": 1
+    "type": 1,
 	"clientInfo": {
 		"phone": "138001380000",
 		"name1": "1",
@@ -19,7 +19,7 @@ websocket客户端发往服务端的注册数据结构:
 websocket客户端发往服务端的响应数据结构:
 ````
 {
-    "type": 2
+    "type": 2,
 	"clientInfo": {
 		"context": "138001380000"
 	}
