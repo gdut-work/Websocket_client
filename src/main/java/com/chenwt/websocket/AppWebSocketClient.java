@@ -63,5 +63,16 @@ public class AppWebSocketClient extends WebSocketClient {
         // TODO Auto-generated method stub
         System.out.println("收到消息"+dataResponseBeanStr);
         System.out.println("-------- 接收到服务端数据： " + dataResponseBeanStr + "--------");
+
+//        /**
+//         * 响应测试成功
+//         */
+//        String appResponse = "{\n" +
+//                "    \"type\": 2,\n" +
+//                "\t\"clientInfo\": {\n" +
+//                "\t\t\"context\": \"我是客户端响应\"\n" +
+//                "\t}\n" +
+//                "}";
+//        send(appResponse);
     }
 }
