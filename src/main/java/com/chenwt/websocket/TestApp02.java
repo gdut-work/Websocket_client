@@ -8,12 +8,12 @@ package com.chenwt.websocket;
  * @description:
  */
 
-public class TestApp {
+public class TestApp02 {
     private static String serverUrl = "ws://127.0.0.1/admin/websocket/app";
     private static String appClientInfo = "{\n" +
-            "    \"type\": 1\n" +
+            "    \"type\": 1,\n" +
             "\t\"clientInfo\": {\n" +
-            "\t\t\"phone\": \"138001380000\",\n" +
+            "\t\t\"phone\": \"13800138002\",\n" +
             "\t\t\"name1\": \"1\",\n" +
             "\t\t\"name2\": \"2\",\n" +
             "\t\t\"name3\": \"3\",\n" +
